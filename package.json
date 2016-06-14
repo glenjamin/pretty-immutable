@@ -1,0 +1,36 @@
+{
+  "name": "pretty-immutable",
+  "version": "1.0.0-dev",
+  "description": "Pretty printing for ImmutableJS",
+  "main": "pretty.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glenjamin/pretty-immutable.git"
+  },
+  "keywords": [
+    "immutable",
+    "pretty",
+    "print"
+  ],
+  "author": "Glen Mailer <glen@stainlessed.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glenjamin/pretty-immutable/issues"
+  },
+  "homepage": "https://github.com/glenjamin/pretty-immutable#readme",
+  "devDependencies": {
+    "@glenjamin/eslint-config": "^2.1.3",
+    "chai": "^3.5.0",
+    "eslint": "^2.8.0",
+    "immutable": "^3.8.1",
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "json-stringify-pretty-compact": "^1.0.1",
+    "repeat-string": "^1.5.4"
+  }
+}
