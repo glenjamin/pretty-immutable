@@ -2,7 +2,7 @@
 
 Pretty printing for ImmutableJS
 
-Heavily inspired by (and dependent on [json-stringify-pretty-compact][https://github.com/lydell/json-stringify-pretty-compact]).
+Heavily inspired by (and dependent on) [json-stringify-pretty-compact](https://github.com/lydell/json-stringify-pretty-compact).
 
 ## Install
 
