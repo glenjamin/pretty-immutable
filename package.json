@@ -1,6 +1,6 @@
 {
   "name": "pretty-immutable",
-  "version": "1.0.0-dev",
+  "version": "1.0.0",
   "description": "Pretty printing for ImmutableJS",
   "main": "pretty.js",
   "scripts": {
