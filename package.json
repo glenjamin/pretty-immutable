@@ -25,7 +25,7 @@
   "devDependencies": {
     "@glenjamin/eslint-config": "^2.1.3",
     "chai": "^3.5.0",
-    "eslint": "^2.8.0",
+    "eslint": "2.8.0",
     "immutable": "^3.8.1",
     "mocha": "^2.5.3"
   },
