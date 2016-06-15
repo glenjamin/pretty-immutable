@@ -34,10 +34,38 @@ var bigMap = Immutable.fromJS({
 });
 
 // Use as a formatter
-console.log(prettyI(bigMap));
+console.log(prettyI(bigMap)); /*
+Map {
+  "a": List [ 1, 2, 3, 4 ],
+  "b": Map {
+    "blah": Map {
+      "blah": List [
+        Map { "a": 1 },
+        Map { "b": 2 },
+        Map { "c": 3 }
+      ]
+    }
+  }
+}
+*/
 
 // Override the built-in inspect() method
 prettyI.install(Immutable);
+
+console.log(bigMap.inspect()); /*
+Map {
+  "a": List [ 1, 2, 3, 4 ],
+  "b": Map {
+    "blah": Map {
+      "blah": List [
+        Map { "a": 1 },
+        Map { "b": 2 },
+        Map { "c": 3 }
+      ]
+    }
+  }
+}
+*/
 ```
 
 ## License
