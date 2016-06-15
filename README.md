@@ -4,6 +4,8 @@ Pretty printing for ImmutableJS
 
 Heavily inspired by (and dependent on) [json-stringify-pretty-compact](https://github.com/lydell/json-stringify-pretty-compact).
 
+[![npm version](https://img.shields.io/npm/v/pretty-immutable.svg)](https://www.npmjs.com/package/pretty-immutable) [![Build Status](https://img.shields.io/travis/glenjamin/pretty-immutable/master.svg)](https://travis-ci.org/glenjamin/pretty-immutable) ![MIT Licensed](https://img.shields.io/npm/l/pretty-immutable.svg)
+
 ## Install
 
 ```sh
